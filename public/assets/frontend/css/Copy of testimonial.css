@@ -1,0 +1,542 @@
+.testimonial__data,
+.testimonial__header{
+    display: flex;
+}
+.testimonial__data{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.testimonial__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.testimonial__name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF4367;
+}
+.testimonial__client{
+    font-size: 14px;
+    color: hsl(var(--hue-color),8%,65%);
+}
+.testimonial__description{
+    margin-bottom: 20px;
+}
+.testimonial__icon-star{
+    color: #FF4367;
+}
+.testimonial_star{
+    margin-right: 18px;
+}
+
+/*@media screen and (max-width: 600px){*/
+/*    .auto-tv {*/
+/*        width: 100%;*/
+/*        margin-top: 20%;*/
+/*        border-radius: 7px;*/
+/*        border: 1px solid #ff4367;*/
+/*        margin-right: 20px;*/
+/*    }*/
+/*}*/
+/*@media screen and (min-width: 568px){*/
+/*    .auto-tv {*/
+/*        width: 100%;*/
+/*        margin-top: 20%;*/
+/*        border-radius: 7px;*/
+/*        border: 1px solid #ff4367;*/
+/*        margin-right: 20px;*/
+/*    }*/
+/*}*/
+.about_produt li{
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+.product_image .nav .nav-item a img {
+    width: 70%;
+}
+.stitle{
+    font-size: 14px;
+}
+.fa-whatsapp{
+    color: black;
+}
+.button_promotion a{
+    color: black;
+}
+/*.card_body{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+.pomote_tk{
+    float: right;
+    margin-top: -50px;
+}
+.img_promot {
+    width: 90px;
+    border-radius: .5rem;
+    justify-self: center;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.promote_body {
+    float: right;
+    margin-top: -59px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+}
+.btn_bangla {
+    background-color: white;
+    color: #FF4367;
+    border: 1px solid white;
+    width: 57px;
+    height: 29px;
+    margin-top: 27px;
+    border-radius: 5px 5px 5px 5px;
+}
+@media screen and (max-width: 990px){
+    .btn_bangla {
+        margin-top: 0px;
+    }
+}
+
+
+/* Blog Posts */
+
+.blog-posts {
+    margin-top: 100px;
+}
+
+.blog-posts .blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-posts .blog-thumb img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog-posts .down-content {
+    padding: 40px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-posts .down-content span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    color: #f48840;
+}
+
+.blog-posts .down-content h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    color: #20232e;
+    margin: 10px 0px 12px 0px;
+}
+
+.blog-posts .down-content ul.post-info li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.blog-posts .down-content ul.post-info li:after {
+    content: '|';
+    color: #aaa;
+    margin-left: 8px;
+}
+
+.blog-posts .down-content h4 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+}
+
+.grid-system .down-content ul.post-info li {
+    margin-right: 3px;
+}
+
+.grid-system .down-content ul.post-info li:after {
+    margin-left: 5px;
+}
+
+.blog-posts .down-content ul.post-info li:last-child::after {
+    display: none;
+}
+
+.blog-posts .down-content ul.post-info li a {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.blog-posts .down-content ul.post-info li a:hover {
+    color: #f48840;
+}
+
+.blog-posts .down-content p {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-posts .down-content ul.post-share {
+    text-align: right;
+}
+
+.blog-posts .down-content ul.post-tags li,
+.blog-posts .down-content ul.post-share li {
+    display: inline-block;
+}
+
+.blog-posts .down-content ul.post-tags li:first-child i,
+.blog-posts .down-content ul.post-share li:first-child i {
+    color: #f48840;
+    margin-right: 5px;
+}
+
+.blog-posts .down-content ul.post-tags li,
+.blog-posts .down-content ul.post-share li {
+    color: #aaa;
+}
+
+.blog-posts .down-content ul.post-tags li a,
+.blog-posts .down-content ul.post-share li a {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.blog-posts .down-content ul.post-tags li a:hover,
+.blog-posts .down-content ul.post-share li a:hover {
+    color: #f48840;
+}
+
+.blog-posts .main-button a {
+    height: 60px;
+    line-height: 60px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+ul.page-numbers {
+    text-align: center;
+}
+
+ul.page-numbers li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+ul.page-numbers li a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: #7a7a7a;
+    border: 1px solid #eee;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+ul.page-numbers li.active a {
+    background-color: #f48840;
+    border-color: #f48840;
+    color: #fff;
+}
+
+ul.page-numbers li a:hover {
+    color: #f48840;
+}
+
+.blog-posts .sidebar-heading h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #20232e;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.blog-posts .comments {
+    margin-top: 30px;
+}
+
+.blog-posts .comments ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-posts .comments ul li.replied {
+    padding-left: 130px;
+}
+
+.blog-posts .comments ul li:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.blog-posts .comments ul li .author-thumb {
+    display: inline;
+    float: left;
+}
+
+.blog-posts .comments ul li .author-thumb img {
+    max-width: 100px;
+    display: inline;
+}
+
+.blog-posts .comments ul li .right-content {
+    margin-left: 130px;
+}
+
+.blog-posts .comments ul li .right-content h4 {
+    color: #20232e;
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.blog-posts .comments ul li .right-content h4 span {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    margin-left: 20px;
+}
+
+.blog-posts .submit-comment {
+    margin-top: 60px;
+}
+
+.blog-posts .submit-comment input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #eee;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #7a7a7a;
+    outline: none;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.blog-posts .submit-comment textarea {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #eee;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #7a7a7a;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    height: 180px;
+    max-height: 220px;
+    max-width: 100%;
+    min-width: 160px;
+}
+
+.blog-posts .submit-comment input::placeholder,
+.blog-posts .submit-comment textarea::placeholder {
+    color: #aaa;
+}
+
+.blog-posts .submit-comment button {
+    display: inline-block;
+    background-color: #f48840;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border: none;
+    outline: none;
+}
+
+.blog-posts .submit-comment button:hover {
+    background-color: #fb9857;
+}
+/*job*/
+.job_deadline{
+    float: right;
+}
+.img_company {
+    float: right;
+    margin-top: -163px;
+}
+.img_company img {
+    width: 100%;
+}
+/*job end*/
+
+/*job details*/
+.job_summary li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.job_summary span{
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 3px;
+    padding-top: 5px;
+}
+.cardbodystyle li{
+    border-bottom: 1px solid #D8D8D8;
+    list-style: none;
+}
+.card-body i{
+    padding-right: 5px;
+}
+.card-body li a{
+    color: #847588;
+    font-size: 14px;
+}
+.card-body li a:hover{
+    color: #0056B3;
+}
+.jobsocial li{
+    list-style: none;
+    border-bottom: 0px;
+    float: left;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.jobtext p{
+    text-align: center;
+}
+.jobtext span{
+    color: red;
+}
+.aplon {
+    width: 155px;
+    height: 44px;
+    background-color: #FF4367;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.aplon:hover{
+    color: white;
+}
+/*job details end*/
+
+/*video*/
+.blog_image video{
+    width:100%;
+    height: 100%;
+}
+/*video end*/
+
+
+/*promote start*/
+.text_p{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.promote_taka{
+    float: right;
+}
+.promote-one{
+    float: right;
+    padding-left: 20px;
+}
+.card-body-payment{
+    display: flex;
+    float: left;
+}
+/*promote end*/
+
+.promoticon {
+    color: #FF4367;
+    border: 1px solid;
+    width: 30px;
+    height: 25px;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+
+/*responsive*/
+.content_wrapper .header_btn {
+    margin-top: 25px;
+    display: flex;
+}
+.product-sort-button, .product-sort-ul, .location-sort-ul {
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.auto-tv {
+    width: 150%;
+    margin-top: 20%;
+    border-radius: 7px;
+    border: 1px solid #ff4367;
+}
+
+@media screen and (max-width: 670px){
+    .auto-tv {
+        width: 100%;
+    }
+}
+@media (max-width: 765px) {
+    .published_btn {
+        text-align: center;
+    }
+}
+/*nav responsive*/
+.responsivebtn{
+    display: none;
+}
+@media (max-width: 575px) {
+    .responsivebtn{
+        display: block;
+        color: #FF4367;
+    }
+    .responsivebtn ul li{
+        background-color: white;
+        margin-bottom: 3px;
+        border-radius: 5px;
+        width: 30%;
+    }
+    .responsivebtn li a{
+        display: block;
+        height: 45px;
+        line-height: 35px;
+        color: #FF4367;
+        border: 2px solid white;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+/**/
+
+
+
+
+
+
+

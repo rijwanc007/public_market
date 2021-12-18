@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b601a3a-8352-4abf-b3b2-dad23659bf7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/District.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Division.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BackEnd/DistrictController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BackEnd/DivisionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/PrivacyPolicyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/PromoteProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/SubscribeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/TermConditionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/TvcuploadController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/liveChatController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Subscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_19_102707_create_subscribes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_21_094546_create_divisions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_21_102931_create_districts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/backend/images/divisions/1384764240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/backend/images/divisions/1393444034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/backend/images/divisions/278256937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/css/Copy of testimonial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/css/testimonial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/IT-&amp;-telecommunication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/accounting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/agriculture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/bank-&amp;-non-bank-institute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/call-center.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/creative-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/driving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/education-and-training.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/electrician.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/garments-&amp;-textile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/health-&amp;-fitness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/law-and-legal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/medical-and-pharma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/medical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/others.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/production.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/receptionist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/Job_Icon/travel-&amp;-tourism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/company/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/delivery1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/onlineorder-doorstep.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/testimonial/testimonial1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/testimonial/testimonial2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/testimonial/testimonial3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/truc.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/images/warning-safe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/frontend/video/The Breathtaking Beauty of Nature.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/district/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/district/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/division/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/division/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/cv-bank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/include/Copy of header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/include/messages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/job-details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/job.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/live-chat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/privacy-policy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/promote.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-job.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-promote.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-testimonial.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/cv-banks.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/job-details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/live-chat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/privacy-policy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/report.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/single-promotes.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/term-conditions.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/tvc-details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/section/tvc-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/single-promote.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/term-condition.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/testimonial.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/tvc-details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/tvc-upload.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public-market.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/public-market.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/TvcController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontEnd/TvcController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/frontend/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/frontend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backend/include/side_bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/include/side_bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/include/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/include/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/include/head_link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/include/head_link.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/include/postad.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/include/postad.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/include/subscribe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/include/subscribe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/safe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/safe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/ad-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/ad-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/all-category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/all-tvc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/all-tvc.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/category-preview.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/category-preview.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/doorstep-delivery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/doorstep-delivery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/location-filter.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/location-filter.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/popular-ads.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/popular-ads.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/product-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/product-details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/recent-ads.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/recent-ads.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/safe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/safe.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/sign-in.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/sign-in.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/strategy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/strategy.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/tvc-preview.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/tvc-preview.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/section/vacancy-announcement.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/section/vacancy-announcement.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/tip.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/tip.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/php-parallel-lint/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1wblx7Fb248WupnT26AqWs4uaqX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sanitary" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public_market\resources\views\frontend" />
+      <recent name="C:\xampp\htdocs\public_market\public\assets\frontend\images\testimonial" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public_market\resources\views\frontend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b601a3a-8352-4abf-b3b2-dad23659bf7b" name="Default Changelist" comment="" />
+      <created>1628735413252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628735413252</updated>
+      <workItem from="1628735448871" duration="15659000" />
+      <workItem from="1628777608011" duration="8663000" />
+      <workItem from="1628788296987" duration="594000" />
+      <workItem from="1628927844945" duration="14115000" />
+      <workItem from="1629083811236" duration="18226000" />
+      <workItem from="1629174554953" duration="19302000" />
+      <workItem from="1629271840549" duration="7835000" />
+      <workItem from="1629346458253" duration="5568000" />
+      <workItem from="1629534091533" duration="4218000" />
+      <workItem from="1629606752785" duration="16811000" />
+      <workItem from="1629771571524" duration="3316000" />
+      <workItem from="1629791685367" duration="846000" />
+      <workItem from="1629881147141" duration="4792000" />
+      <workItem from="1629950898938" duration="8429000" />
+      <workItem from="1630124332847" duration="8178000" />
+      <workItem from="1630142006390" duration="3580000" />
+      <workItem from="1630146910465" duration="2314000" />
+      <workItem from="1630210070985" duration="6163000" />
+      <workItem from="1630309957787" duration="8844000" />
+      <workItem from="1630382283089" duration="13809000" />
+      <workItem from="1630470420802" duration="9624000" />
+      <workItem from="1630554419546" duration="1065000" />
+      <workItem from="1630557423602" duration="18693000" />
+      <workItem from="1630727836627" duration="21080000" />
+      <workItem from="1630907226311" duration="23269000" />
+      <workItem from="1630988942230" duration="4998000" />
+      <workItem from="1631161074523" duration="21460000" />
+      <workItem from="1631596452402" duration="16560000" />
+      <workItem from="1631693388083" duration="5158000" />
+      <workItem from="1631766070262" duration="11621000" />
+      <workItem from="1631938476290" duration="7446000" />
+      <workItem from="1632022680135" duration="5055000" />
+      <workItem from="1632108512054" duration="18732000" />
+      <workItem from="1632299157465" duration="9613000" />
+      <workItem from="1632557321057" duration="2404000" />
+      <workItem from="1632644359832" duration="1990000" />
+      <workItem from="1632816737244" duration="1589000" />
+      <workItem from="1633231301465" duration="1022000" />
+      <workItem from="1633233420998" duration="29000" />
+      <workItem from="1633233554062" duration="7576000" />
+      <workItem from="1633317214985" duration="2608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/frontend/section/all-tvc.blade.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/frontend/section/all-tvc.blade.php</url>
+          <line>105</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/frontend/section/tvc-preview.blade.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/frontend/section/term-conditions.blade.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/frontend/section/category-preview.blade.php</url>
+          <line>109</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
